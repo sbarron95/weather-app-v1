@@ -1,8 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import axios from "axios";
+import App from './WeatherSearch';
 import reportWebVitals from './reportWebVitals';
+import WeatherSearch from "./WeatherSearch";
+
+import "./styles.css";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -11,7 +15,17 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+
+function App() {
+  return (
+    <div className="App">
+      <h1>Weather App</h1>
+      <WeatherSearch />
+    </div>
+  );
+}
+
+const rootElement = document.getElementById("root");
+ReactDOM.render(<App />, rootElement);
+
 reportWebVitals();
