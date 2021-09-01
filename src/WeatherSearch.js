@@ -49,4 +49,4 @@ export default function WeatherSearch() {
     return form;
   }
   
-}<p> Coded by Stephanie Barron using React</p>
+}<footer> Coded by Stephanie Barron using React, open-sourced on <a href="https://github.com/sbarron95/weather-app-v1">GitHub</a>, and hosted on Netlify</footer>
