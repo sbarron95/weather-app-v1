@@ -48,5 +48,5 @@ export default function WeatherSearch() {
   } else {
     return form;
   }
-  
+  <weatherTemperature celsius ={props.data.temperature}/>
 }
