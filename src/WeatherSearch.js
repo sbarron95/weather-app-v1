@@ -48,4 +48,5 @@ export default function WeatherSearch() {
   } else {
     return form;
   }
-}
+  
+}<p> Coded by Stephanie Barron using React</p>
