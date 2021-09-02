@@ -8,7 +8,7 @@ import weatherTemperature from "./WeatherTemperature";
 function App() {
   return (
     <div className="App">
-      <h1>Weather App</h1>
+      <h1>Weather App1</h1>
       <WeatherSearch />
       <footer> Coded by Stephanie Barron using React, open-sourced on <a href="https://github.com/sbarron95/weather-app-v1">GitHub</a>, and hosted on Netlify</footer>
     </div>
