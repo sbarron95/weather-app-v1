@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+import "./index.css";
 <WeatherTemperature celsius={weather.temperature} />
 
 export default function WeatherSearch() {
