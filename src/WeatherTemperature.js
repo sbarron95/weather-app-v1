@@ -22,10 +22,10 @@ export default function WeatherTemperature (props) {
     else {
         let fahrenheit = (props.celsius * 9/5) + 32;
         return (
-            <div className="temperature"> {Math.round(props.fahrenheit)}
-                <span className="temperature"> {Math.round(props.fahrenheit)} </span>
+            <div className="temperature">
+                <span className="temperature"> {Math.round(fahrenheit)} </span>
                 <span className="unit"> 
-                C </span> | {" "}
+                F </span> | {" "}
                 <a href="/" onClick ={showCelsius}> C </a>
             </div> 
         );   
