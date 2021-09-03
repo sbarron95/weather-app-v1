@@ -39,7 +39,7 @@ export default function WeatherSearch() {
         <ul>
           <li> {weather.city}</li>
           <li>Temperature: {Math.round(weather.temperature)}°C</li>
-          <WeatherTemperature celsius={weather.temperature} />
+                <WeatherTemperature celsius={weather.temperature} />
 
           <li>{weather.description}</li>
           <li>Humidity: {weather.humidity}%</li>
