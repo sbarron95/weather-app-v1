@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
+import WeatherTemperature from "./WeatherTemperature";
 import "./index.css";
-<WeatherTemperature celsius={weather.temperature} />
 
 export default function WeatherSearch() {
   const [city, setCity] = useState("");
@@ -14,7 +14,7 @@ export default function WeatherSearch() {
       wind: response.data.wind.speed,
       humidity: response.data.main.humidity,
       icon: `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`,
-      description: response.data.weather[0].description
+      description: response.data.weather[0].description,
     });
   }
   function handleSubmit(event) {
@@ -39,6 +39,8 @@ export default function WeatherSearch() {
         <ul>
           <li> {weather.city}</li>
           <li>Temperature: {Math.round(weather.temperature)}°C</li>
+          <WeatherTemperature celsius={weather.temperature} />
+
           <li>{weather.description}</li>
           <li>Humidity: {weather.humidity}%</li>
           <li>Wind: {weather.wind}km/h</li>
@@ -51,5 +53,4 @@ export default function WeatherSearch() {
   } else {
     return form;
   }
-
 }
