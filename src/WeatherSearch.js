@@ -47,9 +47,12 @@ export default function WeatherSearch() {
           <li>
             <img src={weather.icon} alt={weather.description} />
           </li>
+          <li>
+<weatherDailyForecast />
+          </li>
         </ul>
       </div>
-      <weatherDailyForecast />
+      
     );
   } else {
     return form;
