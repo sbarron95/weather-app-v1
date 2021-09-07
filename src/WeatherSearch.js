@@ -49,6 +49,7 @@ export default function WeatherSearch() {
           </li>
         </ul>
       </div>
+      <weatherDailyForecast />
     );
   } else {
     return form;

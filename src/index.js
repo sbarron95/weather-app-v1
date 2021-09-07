@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import WeatherSearch from "./WeatherSearch";
-
+import weatherDailyForecast from "./weatherDailyForecast";
 function App() {
   return (
     <div className="App">
