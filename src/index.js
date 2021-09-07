@@ -3,7 +3,6 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import WeatherSearch from "./WeatherSearch";
-import weatherTemperature from "./WeatherTemperature";
 
 function App() {
   return (
