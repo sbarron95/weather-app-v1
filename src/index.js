@@ -4,6 +4,7 @@ import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import WeatherSearch from "./WeatherSearch";
 import weatherDailyForecast from "./weatherDailyForecast";
+import weatherForecastDay from "./weatherForecastDay";
 function App() {
   return (
     <div className="App">
