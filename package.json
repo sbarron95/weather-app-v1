@@ -1,3 +1,4 @@
+
 {
   "name": "weather-app-v1",
   "version": "0.1.0",
@@ -36,4 +37,7 @@
       "last 1 safari version"
     ]
   }
+  {"name":"react-animated-weather"
+},
+
 }
