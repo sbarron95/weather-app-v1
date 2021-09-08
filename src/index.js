@@ -2,19 +2,19 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
-import "./Date.js";
 import WeatherSearch from "./WeatherSearch";
-import weatherDailyForecast from "./WeatherDailyForecast";
-import weatherForecastDay from "./WeatherForecastDay";
+
 function App() {
   return (
     <div className="App">
       <h1>Weather App</h1>
       <WeatherSearch />
-      <Date />
-      <footer> Coded by Stephanie Barron using React, open-sourced on GitHub, and hosted on Netlify</footer>
+      <footer>
+        {" "}
+        Coded by Stephanie Barron using React, open-sourced on GitHub, and
+        hosted on Netlify
+      </footer>
     </div>
-  
   );
 }
 
