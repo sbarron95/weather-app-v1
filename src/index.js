@@ -7,7 +7,7 @@ import WeatherSearch from "./WeatherSearch";
 function App() {
   return (
     <div className="App">
-      <h1>Weather Application</h1>
+      <h1>Weather App</h1>
       <WeatherSearch />
       <footer>
         {" "}
